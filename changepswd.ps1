@@ -1,6 +1,6 @@
 # Replace these values with your own
-$resourceGroupName = "Servers-RG"
-$vmName = "server1"
+$resourceGroupName = "RG-test-123456"
+$vmName = "WS2012-123456"
 
 # Get the VM into an object
 $vm = Get-AzVM -ResourceGroupName $resourceGroupName -Name $vmName 

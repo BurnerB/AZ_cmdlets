@@ -44,4 +44,4 @@ function createVms ($images, $vDash_appId){
 # insert your os images here as params ↓
 $vmImages = @("Win2012Datacenter")
 # insert your vdash-app_id here ↓ as params 
-createVms $vmImages "bakam-111111"
+createVms $vmImages "test-123456"
